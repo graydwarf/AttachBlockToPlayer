@@ -1,0 +1,5 @@
+extends Node
+
+signal EnterKeyPressed
+signal ObjectDropped
+signal PlayerEnteredPickupArea

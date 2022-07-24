@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Block.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Main.gd" type="Script" id=3]
+
+[node name="Main" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="Block" parent="." instance=ExtResource( 2 )]
+position = Vector2( 396, 261 )
+
+[node name="Block2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 147, 100 )
+
+[node name="Block3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 315, 102 )
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 35, 163 )
